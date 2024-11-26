@@ -1,0 +1,49 @@
+.flight-search {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tabs button {
+    padding: 10px;
+    border: none;
+    background-color: #f3f4f6;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tabs .active {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .form input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    background-color: #ef4444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

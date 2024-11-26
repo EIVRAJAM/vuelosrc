@@ -1,0 +1,23 @@
+.flight-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.airline-logo {
+  max-width: 80px;
+  margin-right: 16px;
+}
+
+.flight-details {
+  flex: 1;
+}
+
+.flight-duration,
+.flight-price {
+  text-align: right;
+}

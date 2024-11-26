@@ -1,0 +1,137 @@
+/* FlightDetails.css */
+
+.flight-booking-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #e8eded;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-booking-details h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .form-section,
+  .details-section {
+    flex: 1;
+    min-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .passenger-counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .passenger-counter button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .passenger-counter button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .passenger-counter span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .passenger-form {
+    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+  }
+  
+  .passenger-form h4 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .passenger-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .passenger-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .payment-details,
+  .purchase-details {
+    margin-bottom: 80px;
+
+  }
+  
+  .payment-details p,
+  .purchase-details p {
+    margin: 10px 0;
+  }
+  
+  .payment-details h4 {
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  

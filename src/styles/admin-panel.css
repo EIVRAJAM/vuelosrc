@@ -1,0 +1,89 @@
+/* Contenedor principal */
+.admin-panel {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.admin-panel h2 {
+  font-size: 22px;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+.admin-panel .form-group {
+  margin-bottom: 15px;
+}
+
+.admin-panel input[type="text"],
+.admin-panel input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.admin-panel button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+}
+
+.admin-panel button:hover {
+  opacity: 0.9;
+}
+
+.admin-panel button.add{
+  background-color: #28a745;
+  color: #fff;
+}
+
+.admin-panel button.update {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.admin-panel button.delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Listas */
+.admin-panel ul.list {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-panel ul.list li {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-panel ul.list li.airport-item {
+  background-color: #e9f7ef;
+}
+
+.admin-panel ul.list li.airline-item {
+  background-color: #f8eaf6;
+}
+
+.admin-panel ul.list li.flight-item {
+  background-color: #f1f8e9;
+}
+

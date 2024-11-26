@@ -1,0 +1,100 @@
+/* Contenedor principal */
+.booking-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+
+  .center{
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Encabezado */
+  .booking-details h2 {
+    margin-bottom: 20px;
+    color: #2a7ae4;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid #2a7ae4;
+    padding-bottom: 10px;
+  }
+  
+  /* Información general de la reserva */
+  .booking-info p {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .booking-info strong {
+    color: #2a7ae4;
+  }
+  
+  /* Información de los pasajeros */
+  .passenger-info {
+    margin-top: 20px;
+  }
+  
+  .passenger-info h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Lista de pasajeros */
+  .passenger-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .passenger-info li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+  }
+  
+  .passenger-info li:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Elementos de cada pasajero */
+  .passenger-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  .passenger-info strong {
+    color: #555;
+  }
+  
+  /* Responsivo para pantallas pequeñas */
+  @media (max-width: 480px) {
+    .booking-details {
+      padding: 15px;
+    }
+  
+    .booking-details h2 {
+      font-size: 20px;
+    }
+  
+    .booking-info p, .passenger-info p {
+      font-size: 14px;
+    }
+  
+    .passenger-info h3 {
+      font-size: 18px;
+    }
+  }
+  

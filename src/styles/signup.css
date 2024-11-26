@@ -1,0 +1,85 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+    background: #f0f0f0;
+  }
+  
+  .signup-left {
+    flex: 1;
+    background: linear-gradient(135deg, #38b6ff, #1a73e8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .signup-left .brand {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-left .description {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .signup-right {
+    flex: 1;
+    background: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-right h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signup-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .signup-btn {
+    background: #1a73e8;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .signup-btn:hover {
+    background: #0c5ec8;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .login-link a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
